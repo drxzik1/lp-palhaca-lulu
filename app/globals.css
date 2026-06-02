@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-nunito: 'Nunito', sans-serif;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-nunito);
+  background-color: #FFFBF5;
+  color: #1A0A00;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scroll-triggered fade-up */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.65s var(--ease), transform 0.65s var(--ease);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger delays for children */
+.reveal-group > *:nth-child(1) { transition-delay: 0ms; }
+.reveal-group > *:nth-child(2) { transition-delay: 80ms; }
+.reveal-group > *:nth-child(3) { transition-delay: 160ms; }
+.reveal-group > *:nth-child(4) { transition-delay: 240ms; }
+.reveal-group > *:nth-child(5) { transition-delay: 320ms; }
+.reveal-group > *:nth-child(6) { transition-delay: 400ms; }
+
+/* Hero dot pattern overlay */
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(255,255,255,0.25) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #FF6B9D, #FF8B3D, #FFD23F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* WhatsApp green */
+.btn-whatsapp {
+  background: #25D366;
+  color: #fff;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.btn-whatsapp:hover {
+  background: #1ebe57;
+  transform: scale(1.03);
+  box-shadow: 0 8px 32px rgba(37,211,102,0.35);
+}
+
+/* FAQ accordion */
+details summary { cursor: pointer; list-style: none; }
+details summary::-webkit-details-marker { display: none; }
+details[open] .faq-icon { transform: rotate(45deg); }
+.faq-icon { transition: transform 0.3s var(--ease); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
