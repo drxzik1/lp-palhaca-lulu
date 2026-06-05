@@ -58,7 +58,7 @@ export default function Hero() {
           </div>
 
           <p className="mt-4 text-white/80 text-sm font-semibold animate-fade-in-up" style={{ animationDelay: '420ms' }}>
-            📍 Atendemos toda a região · Resposta rápida no WhatsApp
+            📍 Atendemos o Sudoeste e Oeste do Paraná · Resposta rápida no WhatsApp
           </p>
         </div>
 

@@ -46,7 +46,7 @@ export default function FinalCTA() {
         </div>
 
         <p className="reveal mt-5 text-white/80 text-sm font-semibold">
-          📍 Atendemos toda a região · Resposta em minutos
+          📍 Atendemos o Sudoeste e Oeste do Paraná · Resposta em minutos
         </p>
       </div>
     </section>
