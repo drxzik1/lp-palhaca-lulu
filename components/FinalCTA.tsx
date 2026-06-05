@@ -1,4 +1,4 @@
-const WA = 'https://wa.me/5546988355732?text=Oi%20Lulu!%20Quero%20fazer%20um%20or%C3%A7amento%20para%20minha%20festa%20%F0%9F%8E%89'
+const WA = 'https://wa.me/5546988355732?text=Ol%C3%A1!%20Eu%20vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento'
 
 export default function FinalCTA() {
   return (
