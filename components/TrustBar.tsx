@@ -2,7 +2,7 @@ const stats = [
   { icon: '🎪', number: '200+',   label: 'Festas Realizadas',       sub: 'famílias atendidas' },
   { icon: '⭐', number: '5.0',    label: 'Avaliação no Google',      sub: 'avaliações verificadas' },
   { icon: '😊', number: '100%',   label: 'Satisfação Garantida',     sub: 'em todos os eventos' },
-  { icon: '📍', number: 'Toledo', label: 'e toda a Região',          sub: 'atendimento presencial' },
+  { icon: '📍', number: 'Região', label: 'Oeste do Paraná',           sub: 'atendimento presencial' },
 ]
 
 export default function TrustBar() {

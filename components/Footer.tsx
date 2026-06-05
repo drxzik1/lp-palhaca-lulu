@@ -66,7 +66,7 @@ export default function Footer() {
               </a>
               <p className="flex items-center gap-2 text-white/70">
                 <span>📍</span>
-                <span>Toledo e Região, PR</span>
+                <span>Região Oeste do Paraná, PR</span>
               </p>
             </div>
           </div>

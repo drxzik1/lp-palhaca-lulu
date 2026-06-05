@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: 'Quais cidades são atendidas?',
-    a: 'Atendemos Toledo e toda a região Oeste do Paraná. Fale pelo WhatsApp para confirmar disponibilidade na sua cidade.',
+    a: 'Atendemos toda a região Oeste do Paraná. Fale pelo WhatsApp para confirmar disponibilidade na sua cidade.',
   },
   {
     q: 'Com quanto tempo de antecedência devo contratar?',

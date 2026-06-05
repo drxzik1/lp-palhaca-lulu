@@ -25,7 +25,7 @@ export default function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-white/30 backdrop-blur-sm border border-white/50 text-white font-bold text-sm px-4 py-1.5 rounded-full mb-6 animate-fade-in-up">
             <span>⭐⭐⭐⭐⭐</span>
-            <span>+200 Festas Realizadas em Toledo</span>
+            <span>+200 Festas Realizadas na Região</span>
           </div>
 
           {/* Headline */}
@@ -58,7 +58,7 @@ export default function Hero() {
           </div>
 
           <p className="mt-4 text-white/80 text-sm font-semibold animate-fade-in-up" style={{ animationDelay: '420ms' }}>
-            📍 Atendemos Toledo e toda a região · Resposta rápida no WhatsApp
+            📍 Atendemos toda a região · Resposta rápida no WhatsApp
           </p>
         </div>
 

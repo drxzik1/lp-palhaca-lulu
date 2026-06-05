@@ -46,7 +46,7 @@ export default function FinalCTA() {
         </div>
 
         <p className="reveal mt-5 text-white/80 text-sm font-semibold">
-          📍 Atendemos Toledo e Região · Resposta em minutos
+          📍 Atendemos toda a região · Resposta em minutos
         </p>
       </div>
     </section>
