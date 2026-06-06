@@ -29,7 +29,6 @@ export default function Footer() {
               <li>🎮 Recreação & Gincanas</li>
               <li>🏰 Infláveis</li>
               <li>🎨 Pintura Facial</li>
-              <li>🍿 Pipoca & Algodão Doce</li>
             </ul>
           </div>
 

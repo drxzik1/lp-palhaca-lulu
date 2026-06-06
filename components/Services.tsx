@@ -27,13 +27,6 @@ const services = [
     color: 'from-yellow-500/20 to-yellow-100',
     border: 'border-yellow-200',
   },
-  {
-    icon: '🍿',
-    title: 'Pipoca & Algodão Doce',
-    desc: 'Delícias que completam a experiência. As crianças adoram e os pais também!',
-    color: 'from-green-500/20 to-green-100',
-    border: 'border-green-200',
-  },
 ]
 
 export default function Services() {
@@ -57,7 +50,7 @@ export default function Services() {
           {services.map((s, i) => (
             <div
               key={s.title}
-              className={`reveal bg-gradient-to-br ${s.color} border ${s.border} rounded-3xl p-6 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 ${i === 4 ? 'sm:col-span-2 lg:col-span-1' : ''}`}
+              className={`reveal bg-gradient-to-br ${s.color} border ${s.border} rounded-3xl p-6 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 ${i === 3 ? 'lg:col-start-2' : ''}`}
             >
               <div className="text-4xl mb-3">{s.icon}</div>
               <h3 className="font-black text-brand-dark text-xl mb-2">{s.title}</h3>
